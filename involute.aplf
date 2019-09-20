@@ -1,0 +1,6 @@
+ involute←{
+     repeat←1↓2/⌽⍳⍵ ⍝ morten was here!!!
+     moves←(¯1+2×⍵)⍴m←(⊢,-)1 ⍵
+     path←+\repeat/moves
+     ⍵ ⍵⍴⍋path
+ }
